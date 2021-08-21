@@ -1,5 +1,4 @@
-
-code：
+code：https://github.com/TowerYsable/machine_learning_code/
 第一章 绪论                      无代码
 第二章 模型估计与选择    无代码
 第三章 线性模型              房价预测（基于sklearn）
