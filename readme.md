@@ -9,7 +9,7 @@
 
 - 环境建议：使用vscode、pychram等IDE，也可以使用jupyer notebook
 - github：https://github.com/TowerYsable/machine_learning_code/
-- colab：https://drive.google.com/drive/folders/1hYcdW-NuaTe3FHLbYac0p0X_NOrPN3hd?usp=sharing
+- colab：https://drive.google.com/drive/folders/1XKvrieFkK46CNqwTE78i4DzFLpM-1cjg?usp=sharing
 
 ### 3. 作业说明
 
