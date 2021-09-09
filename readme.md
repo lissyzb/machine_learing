@@ -23,30 +23,34 @@
     - 从给定的房屋基本信息以及房屋销售信息等，建立一个回归模型预测房屋的销售价格；
     - 使用matplotlib展示最终的预测结果与实际结果的对比。
 
+  > [可视化参考链接：房价预测](https://www.kaggle.com/marsggbo/kaggle)[kaggle](https://www.kaggle.com/marsggbo/kaggle)[入门项目](https://www.kaggle.com/marsggbo/kaggle)
+
 - **作业2 第四章 决策树                  收入分类问题（基于sklearn）**
 
   - 题目：用决策树模型完成收入分类问题。
     - 对数据进行分类；
-    - 使用pydotplus和IPython.display可视化这颗决策树。
+    - 使用pydotplus和IPython.display可视化这颗决策树，并分析决策树是什么进行决策的？
     - 如果调整收入这个参数，决策树会怎么变化，为什么？
 
 - **作业3 第五章 神经网络              铁锈图像分类（CNN，基于keras和sklearn）**
 
   - 题目：用CNN模型在铁锈数据集完成图像分类。（比赛）
     - 已经提供Keras源码，尝试修改卷积层的参数，写一份不同参数的报告；
-    -  已提供训练的代码，尝试书写预测的代码（预测的数据可以来自训练集）；
-    - 已经提供tensorflow的模型参考代码，改写keras代码（附加）。 
+    - 已提供训练的代码，尝试书写预测的代码（预测的数据可以来自训练集）；
+    - 已经提供Keras的模型参考代码，改写成Tensorflow代码（附加）。 
 
 - **作业4 第六章 支持向量机          新闻分类（基于libsvm）**
 
   - 题目：用SVM模型完成新闻分类。
-    -  已经提供libsvm的源码，尝试使用sklearn中的SVM实现新闻分类问题；
-    - **数据集：** 链接: https://pan.baidu.com/s/1Xvq39rwi8qJfb-Wu1bE9iw    提取码: 35rp
+    - 已经提供libsvm的源码，尝试使用sklearn中的SVM实现新闻分类问题；
+    
+      > **数据集：** 链接: https://pan.baidu.com/s/1Xvq39rwi8qJfb-Wu1bE9iw    提取码: 35rp
 
 - **作业5 第七章 贝叶斯网络          新闻分类（基于sklearn）**
 
   - 题目：用朴素贝叶斯模型完成新闻分类。
     - 使用sklearn.model_selection 中的train_test_split完成交叉验证；
+    - 将文本特征向量化，并使用朴素贝叶斯进行训练； 
     - 使用sklearn.metrics分析得到的分类结果。
 
 - **作业6 第八章 集成学习             鸢尾花分类（基于sklearn，LightGBM）  房价预测（基于sklearn，随机森林）**
@@ -74,4 +78,4 @@
   - 题目：基于KNN完成构造随机森林模型完成新闻分类。
     - 构造一个能识别数字 0 到 9 的基于 KNN 分类器的手写数字识别系统
     - 将模型开发流程进行熟悉
-    - 尝试使用其他的模型完成手写数字识别
+    - 尝试使用其他的模型完成手写数字识别（例如PCA、SVM）
